@@ -29,9 +29,6 @@ sudo apt-get install -y docker-ce docker-ce-cli containerd.io docker-buildx-plug
 # Verify the Docker Engine installation by running the hello-world image
 sudo docker run hello-world
 
-# Remove the hello-world image after verification
-sudo docker rmi hello-world
-
 # Create the docker group
 sudo groupadd docker
 
