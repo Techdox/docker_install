@@ -50,6 +50,8 @@ sudo usermod -aG docker $USER
 # Activate the changes to groups
 echo "Activating group changes..."
 newgrp docker
+echo "Waiting for 10 seconds to ensure group changes take effect..."
+sleep 10
 
 # Create a Docker volume for Portainer data
 echo "Creating Docker volume for Portainer data..."
