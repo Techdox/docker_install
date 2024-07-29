@@ -50,5 +50,5 @@ sudo usermod -aG docker $USER
 # Activate the changes to groups
 echo "Activating group changes..."
 newgrp docker <<EOF
-source ./post_newgrp.sh
+source ./docker_portainer.sh
 EOF
